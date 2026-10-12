@@ -10,7 +10,8 @@
       [
         "expo-image-picker",
         {
-          "cameraPermission": "Apiario usa la fotocamera per fotografare lo scontrino del trattamento."
+          "cameraPermission": "Apiario usa la fotocamera per fotografare lo scontrino del trattamento.",
+          "microphonePermission": false
         }
       ]
     ],
@@ -21,6 +22,12 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "owner": "alejandrox11s-team",
+    "extra": {
+      "eas": {
+        "projectId": "fd06cb54-15b6-4340-a302-4f6d7c5190ae"
       }
     }
   }
