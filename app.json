@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Apiario",
+    "slug": "apiario",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Apiario usa la fotocamera per fotografare lo scontrino del trattamento."
+        }
+      ]
+    ],
+    "android": {
+      "package": "app.apiario.registro",
+      "adaptiveIcon": {
+        "backgroundColor": "#E3A008",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    }
+  }
+}
